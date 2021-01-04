@@ -53,5 +53,18 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>com.bugsnag.bugsnag-example</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>bugsnagtest</string>
+			</array>
+		</dict>
+	</array>
 </dict>
 </plist>
